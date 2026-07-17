@@ -88,7 +88,7 @@ func TestSetAddress(t *testing.T) {
 	require.Equal(t, newAddress, stored.Address)
 }
 
-// TestSetStatus проверяет обновление статуса
+// TestSetStatu проверяет обновление статуса
 func TestSetStatus(t *testing.T) {
 	// prepare
 	db, err := sql.Open("sqlite", "tracker.db")
